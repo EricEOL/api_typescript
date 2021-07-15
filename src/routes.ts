@@ -6,7 +6,7 @@ export function createCourse(req: Request, res: Response) {
   const course = {
     name: "NodeJS",
     duration: 100,
-    educator: "Eric"
+    educator: "Eric",
   }
 
   CreateCourseService.execute(course);

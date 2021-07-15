@@ -8,8 +8,8 @@ var CreateCourseService_1 = __importDefault(require("./CreateCourseService"));
 function createCourse(req, res) {
     var course = {
         name: "NodeJS",
-        duration: 100,
-        educator: "Eric"
+        //duration: 100,
+        educator: "Eric",
     };
     CreateCourseService_1.default.execute(course);
     return res.send("Loucura");
